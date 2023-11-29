@@ -42,3 +42,22 @@ prices[0] = '$100';
 
 function myFunc(a: number, b: number): number {}
 // A:the parameters need to be used within the {}
+
+
+
+
+// Codewars 1: Leap Years
+function isLeapYear(year) {
+// looked up logical functions/operators for javascript
+    if ((year % 4 ===0 && year % 100 !== 0) || (year % 400 === 0)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+// Codewars 2: Multiply
+function multiply(a, b){
+    return a * b
+  }
+  
